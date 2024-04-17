@@ -54,12 +54,12 @@ const Hero = () => {
             }}
           >
             <div className="flex flex-col justify-center items-center mt-5">
-              <div className="w-5 h-5 rounded-full bg-[#ff0065]" />
+              <div className="w-5 h-5 rounded-full bg-[#D9772E]" />
               <div className="w-1 sm:h-80 h-28 violet-gradient " />
             </div>
             <div className="text-center mb-4 sm:mb-0 sm:text-left">
               <h1 className={`${styles.heroHeadText} text-white`}>
-                Hi, I'm <span className="text-[#ff0065]">Akin</span>
+                Hi, I'm <span className="text-[#D9772E]">Akin</span>
               </h1>
               <p className={`${styles.heroSubText} mt-2 text-white-100`}>
                 I develop user interfaces <br className="sm:block hidden" />{" "}
@@ -116,24 +116,25 @@ const Hero = () => {
                 style={{
                   background: "rgba(255,255,255,0.09)",
                   backdropFilter: "blur(12px)",
+                  WebkitBackdropFilter: "blur(12px)",
                   border: "1px solid rgba(17,18,19,0.025)",
                   backgroundImage:
                     "repeating-radial-gradient(circle at 0 0, transparent 0, rgba(0, 0, 0, 0.09) 32px), repeating-linear-gradient(rgba(255, 0, 102, 0.02), rgba(255, 0, 102, 0.02))",
                 }}
-                className="flip-profile-back bg-[#000] flex flex-col justify-center items-center w-[100%] h-[387px] sm:w-[600px] sm:h-[600px] rounded-full"
+                className="flip-profile-back text-center text-secondary flex flex-col justify-center items-center w-[100%] h-[387px] sm:w-[600px] sm:h-[600px] rounded-full"
               >
-                <p className="text-center">Hey there, I see you 😁</p>
-                <p className="text-center">You can reach me on:</p>
+                <p className="">Hey there, I see you 😁</p>
+                <p className="">You can reach me on:</p>
                 <p
                   style={{ border: "1px solid #aaa6c3" }}
-                  className="text-center mt-4 rounded-2xl px-[15px] py-[5px]"
+                  className=" mt-4 rounded-2xl px-[15px] py-[5px]"
                 >
                   {phoneNumber}
                 </p>
                 <button
                   onClick={copyPhoneNumber}
-                  style={{ background: isCopied ? "#ff0065" : "#aaa6c3" }}
-                  className="py-2 px-5 text-xs mt-2 w-fit shadow-md shadow-primary rounded-xl"
+                  style={{ background: isCopied ? "#D9772E" : "#aaa6c3" }}
+                  className="py-2 px-5 text-xs mt-2 text-[#fff] w-fit shadow-md shadow-primary rounded-xl"
                 >
                   {isCopied ? "copied!" : "copy"}
                 </button>
@@ -154,7 +155,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className="w-3 h-3 rounded-full bg-[#ff0065] mb-1"
+              className="w-3 h-3 rounded-full bg-[#D9772E] mb-1"
             />
           </div>
         </a>
