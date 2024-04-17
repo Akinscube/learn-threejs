@@ -39,7 +39,7 @@ body {
 .cursor-dot {
   width: 5px;
   height: 5px;
-  background-color: #ff0065;
+  background-color: #d9772e;
 }
 
 .cursor-outline {
@@ -58,7 +58,6 @@ body {
   z-index: 1;
   pointer-events: none;
 }
-
 
 .hash-span {
   margin-top: -100px;
@@ -80,21 +79,20 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-
 .violet-gradient {
-  background: #ff0065;  /* 804dee */
-  background: linear-gradient(-90deg, #ff0065 0%, rgba(60, 51, 80, 0) 100%);
+  background: #d9772e; /* 804dee */
+  background: linear-gradient(-90deg, #d9772e 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #ff0065 0%,
+    #d9772e 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
 
 .green-pink-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: linear-gradient(90.13deg, #d9772e 1.9%, #bf61ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #d9772e 1.9%, #bf61ff 97.5%);
 }
 
 .orange-text-gradient {
@@ -172,6 +170,13 @@ body {
   text-indent: -9999em;
   animation: mulShdSpin 1.1s infinite ease;
   transform: translateZ(0);
+}
+
+@media (max-width: 991px) {
+  .cursor-dot,
+  .cursor-outline {
+    display: none;
+  }
 }
 
 @keyframes mulShdSpin {

@@ -217,11 +217,11 @@ import {
         },
         {
           name: "Redux",
-          color: "green-text-gradient",
+          color: "blue-text-gradient",
         },
         {
           name: "Firebase",
-          color: "pink-text-gradient",
+          color: "blue-text-gradient",
         },
         {
           name: "scss",
@@ -239,7 +239,7 @@ import {
       tags: [
         {
           name: "react",
-          color: "blue-text-gradient",
+          color: "green-text-gradient",
         },
         {
           name: "Tailwind",
@@ -247,7 +247,7 @@ import {
         },
         {
           name: "MaterialUI",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
       ],
       image: fitMum,

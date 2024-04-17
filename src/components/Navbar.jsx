@@ -13,7 +13,7 @@ const Navbar = () => {
  
   return (
     <nav
-    style={{ background: "#ffffff0d", backdropFilter: "blur(10px)", border: "1px solid rgba(255, 255, 255, 0.07)"}}
+    style={{ background: "#ffffff0d", backdropFilter: "blur(10px)", WebkitBackdropFilter: "blur(10px)", border: "1px solid rgba(255, 255, 255, 0.07)"}}
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
@@ -38,7 +38,7 @@ const Navbar = () => {
               key={link.id}
               className={`${
                 active === link.title ? "text-white" : "text-secondary"
-              } hover:text-[#ff0065] text-[18px] font-medium cursor-pointer`}
+              } hover:text-[#fff] text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`} className="">
