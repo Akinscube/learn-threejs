@@ -235,7 +235,7 @@ import {
     {
       name: "Fitmum",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A foundation focused on fostering optimal wellness and spreading positivity to transform communities, building a healthier, happier future for all.",
       tags: [
         {
           name: "react",
