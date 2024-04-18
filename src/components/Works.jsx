@@ -32,7 +32,7 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex gap-[3px] justify-end card-img_hover">
+          <div className="absolute inset-0 flex gap-[4px] pt-[4px] pr-[4px] justify-end card-img_hover">
             <div
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
               onClick={() => window.open(source_code_link, "_blank")}
@@ -44,7 +44,7 @@ const ProjectCard = ({
               />
             </div>
             <div
-              className="bg-[#ff00651f] w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="bg-[#D9772E1f] w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
               onClick={() => window.open(live_link, "_blank")}
             >
               <img
