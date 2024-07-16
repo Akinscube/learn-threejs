@@ -172,6 +172,11 @@ body {
   transform: translateZ(0);
 }
 
+
+label > input::placeholder, textarea::placeholder {
+  opacity: 0.3;
+}
+
 @media (max-width: 991px) {
   .cursor-dot,
   .cursor-outline {

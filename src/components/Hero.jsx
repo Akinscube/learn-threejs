@@ -71,10 +71,10 @@ const Hero = () => {
             <motion.div
               className="flip-profile-inner"
               initial="initial"
-              whileHover={{
-                rotateY: 180,
-                transition: { duration: 0.5 },
-              }}
+              // whileHover={{
+              //   rotateY: 180,
+              //   transition: { duration: 0.5 },
+              // }}
               // animate={{
               //   y: 0,
               //   opacity: 1,
